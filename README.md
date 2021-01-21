@@ -1,5 +1,7 @@
-# Week 3 Exercises
+# Object-oriented Programming in Python for Mathematicians
 
-Refer to the exercise instructions at https://object-oriented-python.github.io/3_objects.html#exercises
+## Chapter 3 Exercises
 
-These tests are for exercises 3.3 - 3.5. The tests build sequentially, so by exercise 3.5, all tests should pass with a correct implementation.
+Refer to the [exercise instructions](https://object-oriented-python.github.io/3_objects.html#exercises).
+
+These tests are for exercises 3.3 - 3.6. The tests build sequentially, so by exercise 3.6, all tests should pass with a correct implementation.
