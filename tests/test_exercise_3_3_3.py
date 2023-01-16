@@ -1,4 +1,7 @@
-from polynomials import Polynomial
+try:
+    from polynomials import Polynomial
+except ImportError:
+    pass
 import pytest
 
 

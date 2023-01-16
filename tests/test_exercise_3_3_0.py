@@ -1,5 +1,12 @@
-from polynomials import Polynomial
+try:
+    from polynomials import Polynomial
+except ImportError:
+    pass
 import pytest
+
+
+def test_import():
+    from polynomials import Polynomial  # NOQA F401
 
 
 def test_equality():

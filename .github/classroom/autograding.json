@@ -1,6 +1,16 @@
 {
   "tests": [
     {
+      "name": "exercise-3-3-install",
+      "setup": "sudo -H pip3 install pytest setuptools numpy",
+      "run": "python3 -m pip install -e .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
       "name": "exercise-3-3-0",
       "setup": "sudo -H pip3 install pytest setuptools numpy",
       "run": "pytest tests/test_exercise_3_3_0.py",
