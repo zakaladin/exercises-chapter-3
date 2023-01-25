@@ -91,7 +91,7 @@ class Polynomial:
             return NotImplemented
 
     def __rmul__(self, other):
-        return self * other
+        return self *other
 
     def __pow__(self, other):
 
